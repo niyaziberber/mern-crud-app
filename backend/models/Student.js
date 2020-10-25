@@ -16,7 +16,7 @@ let studentSchema = new Schema(
     },
   },
   {
-    collation: "students",
+    collection: "students",
   }
 );
 

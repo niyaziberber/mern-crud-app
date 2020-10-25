@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <Navbar bg="dark" variant="dark">
+          <Navbar fixed="top" bg="dark" variant="dark">
             <Container>
               <Navbar.Brand>
                 <Link to={"/create-student"} className="nav-link">
@@ -54,7 +54,7 @@ function App() {
             <Col md={12}>
               <div className="wrapper">
                 <Switch>
-                  <Route exact path="/" component={CreateStudent} />
+                  <Route exact path="/" component={StudentList} />
                   <Route path="/create-student" component={CreateStudent} />
                   <Route path="/edit-student/:id" component={EditStudent} />
                   <Route path="/student-list" component={StudentList} />

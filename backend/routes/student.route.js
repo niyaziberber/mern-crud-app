@@ -56,7 +56,7 @@ router.route("/update-student/:id").put((req, res, next) => {
 });
 
 //delete student
-router.route("/delete-studen/:id").delete((req, res, next) => {
+router.route("/delete-student/:id").delete((req, res, next) => {
   studentSchema.findByIdAndRemove(req.params.id, (err, data) => {
     if (err) {
       return next(err);

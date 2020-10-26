@@ -35,9 +35,12 @@ export default class StudentTableRow extends Component {
           >
             Edit
           </Link>
+        </td>
+        <td>
           <Button onClick={this.deleteStudent} size="sm" variant="danger">
             Delete
           </Button>
+          
         </td>
       </tr>
     );

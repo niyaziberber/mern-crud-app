@@ -35,6 +35,7 @@ export default class StudentList extends Component {
               <th>Email</th>
               <th>Roll No</th>
               <th>Action</th>
+              <th>Delete</th>
             </tr>
           </thead>
           <tbody>{this.DataTable()}</tbody>

@@ -18,15 +18,14 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <Navbar fixed="top" bg="dark" variant="dark">
-            <Container>
+          <Navbar bg="dark" variant="dark" fixed="top">
               <Navbar.Brand>
                 <Link to={"/create-student"} className="nav-link">
-                  React MERN Stack App
+                  MERN
                 </Link>
               </Navbar.Brand>
 
-              <Nav className="justify-content-end">
+              <Nav className="nav-links" >
                 <Nav>
                   <Link to={"/create-student"} className="nav-link">
                     Create Student
@@ -45,7 +44,6 @@ function App() {
                   </Link>
                 </Nav>
               </Nav>
-            </Container>
           </Navbar>
         </header>
 
